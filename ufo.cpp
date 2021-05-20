@@ -5,9 +5,9 @@ int main()
 {
         greet();
         std::string codeword="shazam";
-        std::string answer="______";
+        std::string answer="______";// keep the size of the underscore text as the size of the codeword
         int misses=0;
-        std::vector<char>incorrect;
+        std::vector<char>incorrect; 
         bool guess=false;
         char letter;
         while (answer!=codeword && misses<7)
